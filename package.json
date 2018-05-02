@@ -1,0 +1,24 @@
+{
+  "id": "synologynote",
+  "version": "1.0.0",
+  "description": "Note Station helps you fully enjoy writing, viewing, managing, and sharing content-rich notes.",
+  "main": "index.js",
+  "author": "David Janssen",
+  "license": "MIT",
+  "repository": "https://github.com/meetfranz/recipe-mattermost",
+  "config": {
+    "serviceURL": "https://codeplanet.synology.me/note/",
+    "serviceName": "Synology Note",
+    "message": "Note Station",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "customURL": false,
+    "hasTeamID": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
