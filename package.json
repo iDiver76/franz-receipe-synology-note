@@ -1,5 +1,6 @@
 {
   "id": "synologynote",
+  "name": "Synology Note",
   "version": "1.0.0",
   "description": "Note Station helps you fully enjoy writing, viewing, managing, and sharing content-rich notes.",
   "main": "index.js",
@@ -7,15 +8,17 @@
   "license": "MIT",
   "repository": "https://github.com/iDiver76/franz-receipe-synology-note",
   "config": {
-    "serviceURL": "https://YOUR-SYNO-DOMAIN/",
+    "serviceURL": "http://QuickConnect.to/{teamId}/note",
     "serviceName": "Synology Note",
     "message": "Note Station",
     "popup": [],
     "hasNotificationSound": false,
     "hasIndirectMessages": false,
-    "customURL": false,
-    "hasTeamID": false,
-    "hostedOnly": false,
+    "hasPredefinedUrl": true,
+    "hasCustomUrl": true,
+    "hasTeamId": true,
+    "urlInputPrefix": "QuickConnect.to/",
+    "urlInputSuffix": "/note",
     "webviewOptions": {
       "disablewebsecurity": ""
     },
