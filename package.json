@@ -5,9 +5,9 @@
   "main": "index.js",
   "author": "David Janssen",
   "license": "MIT",
-  "repository": "https://github.com/meetfranz/recipe-mattermost",
+  "repository": "https://github.com/iDiver76/franz-receipe-synology-note",
   "config": {
-    "serviceURL": "https://codeplanet.synology.me/note/",
+    "serviceURL": "https://YOUR-SYNO-DOMAIN/",
     "serviceName": "Synology Note",
     "message": "Note Station",
     "popup": [],
